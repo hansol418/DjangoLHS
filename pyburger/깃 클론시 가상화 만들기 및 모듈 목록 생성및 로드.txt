@@ -1,0 +1,16 @@
+깃 클론시, 가상화 환경 미설치시 사용법
+
+생성
+1) python -m venv [이름]
+python -m venv myenv
+
+실행
+2) myenv\Scripts\activate
+
+현재, 프로젝트에서 설치한 모듈 목록 만들기.
+3)
+pip freeze > requirements.txt
+
+사용법
+4)pip install -r requirements.txt
+
