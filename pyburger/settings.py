@@ -31,7 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'burgers', # 추가, 새로운 앱 등록
+    'burgers',
+    'lunchMenu',
+    # 추가, 새로운 앱 등록
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

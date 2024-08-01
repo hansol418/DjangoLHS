@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>런치 메뉴 리스트</title>
+</head>
+<body>
+ <h1>런치 메뉴 리스트</h1>
+<h2>일단 목록 전체를 가져오기 </h2>
+ {% for lunchMenu in lunchMenu %}
+    <div>
+        이름 : {{ lunchMenu.name }}
+        가격 : {{ lunchMenu.price }}원,
+        칼로리 : {{ lunchMenu.calories }}kal
+    </div>
+ {% endfor %}
+</body>
+</html>
